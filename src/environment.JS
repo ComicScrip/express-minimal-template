@@ -10,3 +10,4 @@ function getEnv(varibale) {
 }
 
 module.exports.SERVER_PORT = getEnv('SERVER_PORT');
+module.exports.DB_HOST = getEnv('DB_HOST');
